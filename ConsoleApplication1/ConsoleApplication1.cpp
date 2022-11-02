@@ -17,6 +17,7 @@ int wmain(int argc, wchar_t *argv[])
 		wprintf(L"Invalid arguments\n");
 		return 1;
 	}
+	// https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-comt/7b6d157b-8158-4041-a1b8-186b43a2422c
 	const GUID clsid = {
 		0xECABB0C4, 0x7F19, 0x11D2,
 		{ 0x97, 0x8E, 0x00, 0x00, 0xF8, 0x75, 0x7E, 0x2A}
